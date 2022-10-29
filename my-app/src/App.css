@@ -1,0 +1,166 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+.App-logo{
+  position: relative;
+  bottom: 250px;
+  left: 50px;
+}
+/* Split color background*/
+body{
+  height: 100vh;
+  background: linear-gradient(to right, #793EF5 0%, #793EF5 50%, white 50%, white 100%);
+
+}
+form{
+  position: absolute;
+  left: 1240px;
+  bottom: 300px;
+}
+/*input fields*/
+.inputs .email{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+
+  width: 360px;
+  height: 48px;
+
+  /* Base/Secondary */
+  background: #F5F5F7;
+
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.inputs .pass{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+
+  width: 360px;
+  height: 48px;
+
+  /* Base/Secondary */
+  background: #F5F5F7;
+
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/*remember me field*/
+.rm{
+  width: 114px;
+  height: 24px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  /* Gray 3 */
+  color: #828282;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.forgot{
+  position: relative;
+  left: 120px;
+  width: 146px;
+  height: 24px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  /* Purple */
+  color: #793EF5;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/*submit button*/
+.button{
+  width: 45px;
+  height: 20px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 29px;
+
+  width: 360px;
+  height: 48px;
+
+  /* Purple */
+  background: #793EF5;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
