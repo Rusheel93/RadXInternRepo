@@ -1,0 +1,344 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #F2F2F2;
+}
+
+.Sidebar{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 34px 20px;
+  gap: 34px;
+
+  position: absolute;
+  width: 229px;
+  height: 950px;
+  left: 16px;
+  top: 16px;
+
+  background:url('../src/RadicallX-Black-Logo 1.png') top 10% center no-repeat, #FFFFFF;
+  box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+
+
+}
+.dashboard{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 200px;
+  height: 48px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  background: url('../src/dashboard-3.png') no-repeat;
+  background-position:left 10% center;
+
+
+
+}
+.apprenterships{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 24px;
+  margin-top: 0px;
+  height: 48px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  background: url('../src/medal-star.png') no-repeat;
+  background-position:left 10% center;
+
+
+
+}
+.internships{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  height: 48px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  background: url('../src/book.png') no-repeat;
+  background-position:left 10% center;
+
+
+}
+.jobs{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  height: 48px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  background: url('../src/briefcase.png') no-repeat;
+  background-position:left  10% center;
+
+
+}
+.settings{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  height: 48px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  background: url('../src/setting-2.png') no-repeat;
+  background-position:left  10% center;
+
+
+}
+.Username{
+  position: relative;
+  left: 80px;
+  top: 420px;
+  font-family: 'Space Grotesk';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+
+}
+.user-icon{
+  content:" "; display:block;
+  height:50px; width:50px;
+  background:#E2E6EB;
+  position:relative; left:5px;top:380px;
+  border-radius:2em;
+}
+
+.DisplayInfo{
+  position: relative;
+  top: 245px;
+  left: 350px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+
+
+  width: 1400px;
+  height: 270px;
+
+  /* Snow */
+  background: #FFFFFF;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Prompt{
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+
+  width: 280px;
+  height: 238px;
+
+  /* Grey Light */
+  background: #F6F5F9;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Prompt body{
+  background-color: #F6F5F9;
+}
+.Prompt h1{
+  width: 248px;
+  height: 24px;
+
+  /* Desktop/H5 */
+  font-family: 'Eloquia Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+  font-feature-settings: 'liga' off;
+
+  /* Gray 1 */
+  color: #333333;
+
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Prompt p{
+
+  width: 229px;
+  height: 120px;
+
+  font-family:'Space Grotesk';
+  font-style: normal;
+  font-weight: 00;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* or 143% */
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Dark */
+  color: #1E1E1E;
+
+
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+.FilterBar{
+  position:relative;
+  bottom: 270px;
+  left: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 10px;
+
+  width: 813px;
+  height: 48px;
+
+  /* Gray 6 */
+  background: #F2F2F2;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+.Thisweek{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 91px;
+  height: 32px;
+
+  /* Purple */
+  background: #793EF5;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Thismonth{
+  position: absolute;
+  top: 8px;
+  left: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 100px;
+  height: 32px;
+
+  /* Snow */
+  background: #FFFFFF;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Thisdate{
+  position: absolute;
+  top: 8px;
+  left: 690px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 100px;
+  height: 32px;
+
+  /* Snow */
+  background: #FFFFFF;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+[label react-tabs-component/src/App.css] .tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
