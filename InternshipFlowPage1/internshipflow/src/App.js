@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar';
-
+//import Navbar from './Navbar';
+import Tabs from './components/Tabs';
 function App() {
   return (
 
@@ -30,8 +30,16 @@ function App() {
           </body>
         </div>
         <div className="FilterBar">
-          <div className="Tabs">
-            <Navbar />
+          <div className="thistab">
+  {/*        <Navbar />*/}
+            <Tabs>
+              <div label="This week">
+              </div>
+              <div label="This month">
+              </div>
+              <div label="This date">
+              </div>
+            </Tabs>
           </div>
         </div>
        </div>

@@ -262,83 +262,116 @@ body{
   flex-grow: 0;
 
 }
-.Thisweek{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 6px 12px;
-  gap: 8px;
+.tabs .tab-content{
 
-  width: 91px;
-  height: 32px;
+width: 789px;
+height: 174px;
 
-  /* Purple */
-  background: #793EF5;
-  border-radius: 8px;
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+top: 10px;
+background: url('../src/Funnel.png') no-repeat;
 }
-.Thismonth{
-  position: absolute;
-  top: 8px;
-  left: 130px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 6px 12px;
-  gap: 8px;
-
-  width: 100px;
-  height: 32px;
-
-  /* Snow */
-  background: #FFFFFF;
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+.tab-list{
+  position: relative;
+  bottom: 10px;
 }
-.Thisdate{
-  position: absolute;
-  top: 8px;
-  left: 690px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 6px 12px;
-  gap: 8px;
+.tab-list .label{
+    position: relative;
 
-  width: 100px;
-  height: 32px;
-
-  /* Snow */
-  background: #FFFFFF;
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+    margin-left: 60px;
 
 }
-
 [label react-tabs-component/src/App.css] .tab-list {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   padding-left: 0;
 }
 .tab-list-item {
+  margin: 0px 5px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+
+
+  background-color: white;
   display: inline-block;
   list-style: none;
+  border-radius: 8px;
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
+
+
+  align-items: flex-start;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 100px;
+  height: 32px;
+
+  /* Snow */
+  background: #FFFFFF;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* THIS DATE TAB*/
+.tab-list-item:last-child {
+  position: relative;
+  left: 380px;
+  background: url('../src/calendar-2.png') no-repeat;
+  background-color: white;
+  background-position: 10% 19%;
+
 }
 .tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  color: white;
+  background-color: #793EF5;
+  height: 28px;
+  width: 91px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 6px 12px 6px 12px;
+
+}
+.tab-list-active:last-child{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  color: white;
+  background-color: #793EF5;
+  height: 28px;
+  width: 91px;
+
+  border-radius: 8px;
+  padding: 6px 12px 6px 12px;
+
 }
