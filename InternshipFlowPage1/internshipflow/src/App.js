@@ -1,7 +1,16 @@
 import './App.css';
 import React from 'react';
+import SortList from './components/SortList';
 //import Navbar from './Navbar';
 import Tabs from './components/Tabs';
+
+const list = [
+  {id:1, name: "Internship Title"},
+  {id:2, name:"Completion Period"},
+  {id:3, name:"Total Enrolled"},
+  {id:4, name:"Qualified Candidates"}
+];
+
 function App() {
   return (
 
@@ -18,7 +27,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="DisplayInfo">
        <div className="Insights">
         <div className="Prompt">
@@ -30,6 +38,8 @@ function App() {
           </body>
         </div>
         <div className="FilterBar">
+          <h1>Internship</h1>
+          <input className="createnew" type="button" value="Create New Internship" ></input>
           <div className="thistab">
   {/*        <Navbar />*/}
             <Tabs>
@@ -43,6 +53,11 @@ function App() {
           </div>
         </div>
        </div>
+      </div>
+      <div className="LowerDisplay">
+        <div className="filtertab">
+              <SortList list={list}/>
+        </div>
       </div>
     </div>
   );

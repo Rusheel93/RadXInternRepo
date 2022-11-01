@@ -26,7 +26,6 @@ body{
   box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
   border-radius: 24px;
 
-
 }
 .dashboard{
   font-family: 'Space Grotesk';
@@ -41,6 +40,7 @@ body{
   left: 0px;
   top: 0px;
   border-radius: 16px;
+  border-color: white;
   padding: 12px 16px 12px 16px;
   background: url('../src/dashboard-3.png') no-repeat;
   background-position:left 10% center;
@@ -61,6 +61,7 @@ body{
   left: 0px;
   top: 0px;
   border-radius: 16px;
+  border-color: white;
   padding: 12px 16px 12px 16px;
   background: url('../src/medal-star.png') no-repeat;
   background-position:left 10% center;
@@ -80,6 +81,7 @@ body{
   top: 0px;
   border-radius: 16px;
   padding: 12px 16px 12px 16px;
+  border-color: white;
   background: url('../src/book.png') no-repeat;
   background-position:left 10% center;
 
@@ -96,6 +98,7 @@ body{
   left: 0px;
   top: 0px;
   border-radius: 16px;
+  border-color: white;
   padding: 12px 16px 12px 16px;
   background: url('../src/briefcase.png') no-repeat;
   background-position:left  10% center;
@@ -112,6 +115,7 @@ body{
   width: 189px;
   left: 0px;
   top: 0px;
+  border-color: white;
   border-radius: 16px;
   padding: 12px 16px 12px 16px;
   background: url('../src/setting-2.png') no-repeat;
@@ -262,23 +266,68 @@ body{
   flex-grow: 0;
 
 }
-.tabs .tab-content{
+.FilterBar h1{
+  position: relative;
+  right: 350px;
+  bottom: 160px;
+}
+.createnew{
 
-width: 789px;
-height: 174px;
+  width: 157px;
+  height: 20px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  color: #FFFFFF;
+  position: relative;
+  left: 870px;
+  bottom: 490px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+
+  width: 217px;
+  height: 44px;
+
+  /* Purple */
+  background: url('./add-square.png') no-repeat, #793EF5;
+  border-radius: 12px;
+  background-position: 5% 60%;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.tab-content{
+
+  width: 789px;
+  height: 174px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-position: relative;
-top: 10px;
-background: url('../src/Funnel.png') no-repeat;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+  top: -80px;
+  background: url('../src/Funnel.png') no-repeat;
 }
 .tab-list{
   position: relative;
-  bottom: 10px;
+  bottom: 110px;
 }
 .tab-list .label{
     position: relative;
@@ -373,5 +422,44 @@ background: url('../src/Funnel.png') no-repeat;
 
   border-radius: 8px;
   padding: 6px 12px 6px 12px;
+
+}
+
+.filtertab{
+  width: 1430px;
+  height: 400px;
+  border-radius: 16px;
+  position: relative;
+  left: 350px;
+  top: 320px;
+
+  background-color: white;
+}
+.List{
+  border: 0;
+  right: 10px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+
+
+  /* identical to box height, or 171% */
+  font-feature-settings: 'liga' off;
+
+  /* Text/Text - 01 */
+  top: -70px;
+  display: inline-flex;
+  width: 250px;
+  height: 56px;
+  position: relative;
+  margin: 10px;
+  background: url("./arrow-square-down.png") no-repeat;
+  background-position: 80% 30%;
+
+
+
 
 }
