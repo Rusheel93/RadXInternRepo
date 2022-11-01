@@ -5,9 +5,9 @@ import SortList from './components/SortList';
 import Tabs from './components/Tabs';
 
 const list = [
-  {id:1, name: "Internship Title"},
-  {id:2, name:"Completion Period"},
-  {id:3, name:"Total Enrolled"},
+  {id:1, name: "Internship Title", title:"Product Design GVI"},
+  {id:2, name:"Completion Period", days:"120 days"},
+  {id:3, name:"Total Enrolled", total:"20,000"},
   {id:4, name:"Qualified Candidates"}
 ];
 

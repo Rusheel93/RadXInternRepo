@@ -28,6 +28,7 @@ body{
 
 }
 .dashboard{
+
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -49,6 +50,7 @@ body{
 
 }
 .apprenterships{
+  border: 0;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -70,6 +72,7 @@ body{
 
 }
 .internships{
+  border: 0;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -88,6 +91,7 @@ body{
 
 }
 .jobs{
+  border: none;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -106,6 +110,7 @@ body{
 
 }
 .settings{
+  border: 0;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -436,15 +441,12 @@ body{
   background-color: white;
 }
 .List{
-  border: 0;
   right: 10px;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-
-
 
   /* identical to box height, or 171% */
   font-feature-settings: 'liga' off;
@@ -456,10 +458,11 @@ body{
   height: 56px;
   position: relative;
   margin: 10px;
+}
+.List button{
+  display: inline-flex;
+  width: 300px;
+  border: none;
   background: url("./arrow-square-down.png") no-repeat;
-  background-position: 80% 30%;
-
-
-
-
+  background-position: 100% 5%;
 }
